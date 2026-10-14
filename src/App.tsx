@@ -9,6 +9,7 @@ import { SzovegFuggvenyekFejlec } from "./components/SzovegFuggvenyekFejlec";
 import { SzovegKezeloFuggvenyek } from "./components/SzovegKezeloFuggvenyek";
 import { SzamologepFejlec } from "./components/SzamologepFejlec";
 import { Calculator } from "./components/Calculator";
+import ComplexCalculator from "./components/ComplexCalculator";
 
 function App() {
   return <>
@@ -43,6 +44,13 @@ function App() {
     <div>
       <SzamologepFejlec/>
       <Calculator/>
+    </div>
+
+    <br />
+    <br />
+
+    <div>
+      <ComplexCalculator/>
     </div>
 
 
